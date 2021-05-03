@@ -34,11 +34,11 @@ class MainActivity : AppCompatActivity() {
                 var apiData = response?.body()!!
                 if (apiData.size > 0){
                     rvItemList.visibility = View.VISIBLE
-                    //tvNoRecordAvailable.visibility = View.GONE
+                    tvNoRecordAvailable.visibility = View.GONE
                     rvItemList.adapter = ApiAdapter(this@MainActivity, apiData)
                 } else {
                     rvItemList.visibility = View.GONE
-                    //tvNoRecordAvailable.visibility = View.VISIBLE
+                    tvNoRecordAvailable.visibility = View.VISIBLE
                 }
                 Toast.makeText(baseContext, "Data Downloading is Successfully", Toast.LENGTH_LONG).show()
             }

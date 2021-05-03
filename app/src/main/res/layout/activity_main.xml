@@ -7,6 +7,14 @@
     android:orientation="vertical"
     tools:context=".MainActivity">
 
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="No Record Available"
+        android:layout_gravity="center"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        android:id="@+id/tvNoRecordAvailable"/>
 
     <androidx.recyclerview.widget.RecyclerView
         android:layout_width="match_parent"

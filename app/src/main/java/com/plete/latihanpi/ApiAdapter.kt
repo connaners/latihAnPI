@@ -43,7 +43,7 @@ class ApiAdapter(
         if (position % 2 == 0){
             holder.llmain.setBackgroundColor(ContextCompat.getColor(context, R.color.darkYellow))
         } else {
-            holder.llmain.setBackgroundColor(ContextCompat.getColor(context, R.color.brown))
+            holder.llmain.setBackgroundColor(ContextCompat.getColor(context, R.color.happy))
         }
     }
 }

@@ -12,30 +12,40 @@
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:fontFamily="monospace"
+            android:textStyle="bold"
             android:text="name"
             android:textSize="16sp"
             android:id="@+id/tvName"/>
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:fontFamily="monospace"
+            android:textStyle="bold"
             android:text="ayat"
             android:textSize="16sp"
             android:id="@+id/tvAyat"/>
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:fontFamily="monospace"
             android:text="surat"
             android:textSize="16sp"
             android:id="@+id/tvSurat"/>
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:fontFamily="monospace"
             android:text="tempat"
             android:textSize="16sp"
             android:id="@+id/tvTempat"/>
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:fontFamily="monospace"
             android:textSize="16sp"
             android:text="jenis"
             android:id="@+id/tvJenis"/>

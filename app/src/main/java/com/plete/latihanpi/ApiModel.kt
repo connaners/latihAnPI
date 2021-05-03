@@ -1,6 +1,6 @@
 package com.plete.latihanpi
 
-class ApiModel (
+data class ApiModel (
     val name: String,
     val number_of_ayah: Int,
     val number_of_surah: Int,
